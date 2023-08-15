@@ -1,0 +1,14 @@
+# Active window
+window.active.label.text.color: #aaa
+window.inactive.label.text.color: #aaa
+window.label.text.justify: Center
+window.active.button.unpressed.image.color: #aaa
+window.inactive.button.unpressed.image.color: #aaa
+
+# Window geometry
+padding.width: 1
+padding.height: 1
+border.width: 0
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0

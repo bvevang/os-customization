@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id="root-menu" label="Openbox 3">
+  <item label="Alacritty">
+    <action name="Execute"><execute>x-terminal-emulator</execute></action>
+  </item>
+  <item label="Firefox">
+    <action name="Execute"><execute>x-www-browser</execute></action>
+  </item>
+  <item label="PCManFM">
+   <action name="Execute"><execute>pcmanfm-qt</execute></action>
+  </item>
+  <item label="Blue (64)">
+   <action name="Execute"><execute>pcmanfm-qt /mnt/blue/</execute></action>
+  </item>
+  <item label="25% Brightness">
+   <action name="Execute"><execute>brightnessctl s 25%</execute></action>
+  </item>
+  <item label="50% Brightness">
+   <action name="Execute"><execute>brightnessctl s 50%</execute></action>
+  </item>
+  <item label="100% Brighrness">
+   <action name="Execute"><execute>brightnessctl s 100%</execute></action>
+  </item>	
+</openbox_menu>
